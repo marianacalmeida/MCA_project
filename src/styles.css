@@ -1,0 +1,98 @@
+.box {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  padding: 20px 40px 20px 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: #ffffff;
+  display: inline;
+}
+
+h2,
+h5 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 20px 20px 5px;
+  color: #27305c;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+.emoji,
+.temperature {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #27305c;
+}
+
+.header {
+  vertical-align: middle;
+}
+
+.emoji {
+  font-size: 100px;
+  text-align: center;
+}
+
+.temperature {
+  font-size: 45px;
+  padding: 0;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+}
+
+.row-temp {
+  padding-right: 0;
+}
+
+.date {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+a {
+  color: #27305c;
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #27305c;
+  border-color: #27305c;
+  display: inline;
+  margin: 0 auto;
+}
+.btn:hover {
+  background-color: #3d487b;
+  border-color: #3d487b;
+}
+
+.btn-current {
+  background-color: #505ea0;
+  border-color: #505ea0;
+}
+
+.btn-current:hover {
+  background-color: #6573b7;
+  border-color: #6573b7;
+}
+
+.meteo {
+  margin: 20px 0;
+}
+
+.today {
+  background-color: #fff;
+  height: 400px;
+  border-radius: 20px;
+}
